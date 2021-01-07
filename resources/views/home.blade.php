@@ -2,6 +2,17 @@
 
 @section('content')
 <main>
-    <h1>Hello laravel</h1>
+    {{-- Stampa comics --}}
+    <ul>
+        @foreach($comics as $comic)
+        <li>
+            <a href="">
+                <img src="{{ $comic['image'] }}" alt="{{ $comic['title'] }}">
+                <h2>{{ $comic['title'] }}</h2>
+                
+            </a>
+        </li>
+        @endforeach
+    </ul>
 </main>
 @endsection

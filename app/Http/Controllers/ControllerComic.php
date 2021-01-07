@@ -11,6 +11,6 @@ class ControllerComic extends Controller
     {
         $comics = config('comics');
         
-        return $comics;
+        return view('home', compact('comics'));
     }
 }
