@@ -1,4 +1,9 @@
 .jumbotron {
     height: 400px;
     background-image: url('../image/bg-hero-home.jpg');
+    img {
+        position: relative;
+        top: 110px;
+        left: 100px;
+    }
 }

@@ -22,6 +22,9 @@
 
         {{-- Header --}}
         @include('partials.header')
+
+        {{-- Jumbotron --}}
+        @include('partials.jumbotron')
         
         {{-- Main --}}
         @yield('content')
